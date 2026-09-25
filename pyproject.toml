@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tool-foundry"
+version = "1.0.0"
+description = "Just-In-Time Autonomous Wasm Tool Synthesizer for AI Agents"
+authors = [{ name = "AAH20", email = "research@aah20.dev" }]
+license = { text = "Apache-2.0" }
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+tool-foundry = "tool_foundry.cli:main"
